@@ -1,0 +1,52 @@
+#navegacao{
+    background-image: url(istockphoto-1307537947-1024x1024.jpg);
+    height: 100px;
+    border-radius: 100px;
+    background-attachment: scroll;
+
+
+}
+.botao{
+    font-style: italic;
+    position: relative;
+    font-size: 30px;
+    margin-left: 610px;
+    top:9mm;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    background-color: rgb(52, 150, 196);
+    border-radius: 10px;
+    border: solid 2px rgb(0, 0, 0);   
+}
+.botao:hover{
+    background-color: rgb(231, 193, 191);
+    color: rgb(4, 5, 5);
+    transform: scale(1.2);
+}
+.tabela{
+    border: solid 10px rgb(52, 150, 196);
+    margin-left: 450px;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: #c5edff;
+    box-shadow: 20px 20px 20px black;
+}
+#texto{
+    position: absolute;
+    left: 600px;
+    border: solid black;
+    border-radius: 5px;
+}
+.titulo{
+    border: solid 3px;
+    border-radius: 100px;
+    margin-left: 500px;
+    width: 400px;
+    height: 200px;
+    font-size: 40px;
+}
+body{
+    background-attachment: fixed;
+    background-image: radial-gradient(rgb(114, 142, 198), rgb(40, 85, 198), rgb(19, 65, 134),rgb(72, 94, 147), blue, blue );
+}
+

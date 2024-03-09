@@ -1,0 +1,106 @@
+#foto {
+    width: 500px;
+    height: 160px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 17px;
+    border-color: aqua;
+   
+}
+body{
+    background-attachment: fixed;
+    height: 100%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    color: rgb(10, 10, 10);
+        
+    }
+    
+        
+    
+ @keyframes move{
+    from {left: 100px;}
+    to {left: 20px}}
+    #text {position:relative;
+         animation: move 4s alternate-reverse;
+         left: 100px; 
+         
+    }
+
+ #clip{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 650px;
+    border-radius: 20px;
+        
+}
+#texto2{
+    color: aliceblue;
+    position: absolute;
+    margin: auto;
+    background-image: url(fundo\ texto.png);
+    width: 40%;
+    height: 380px;
+    margin-right: 0px;
+    margin-left: 700px;
+    border-radius: 5px;
+    text-decoration: solid;
+    box-shadow: 10px 10px 10px rgb(30, 84, 202);
+    
+    }
+    
+
+@keyframes texto{
+     de {left: 0px;}
+     para {right: 0px;}}
+ #texto2 {position: absolute;
+animation: move 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+bottom: -280px;
+}
+#menu{
+    display: inline;
+    display:grid;
+    list-style: none;
+    position: relative;
+    left: 920px;
+    top: -170px;
+    
+    
+}
+#menu:hover li{
+    transition:linear 0.7s, 0.7s, 0.7s;
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 12, 12);
+
+   
+    
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    list-style: none;
+    display: inline-block;
+}
+
+
+#menu li{
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    border: solid 2px;
+    width: 300px;
+    margin: 15px;
+    
+}
+    
+
+    
+
+    
